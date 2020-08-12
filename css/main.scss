@@ -1,0 +1,45 @@
+@import "partials/landing";
+@import "partials/navbar";
+@import "partials/card";
+@import "partials/swichBtn;"
+
+
+:root {
+  --color1: #f6f7f9;
+  --color2: #dde8ee;
+  --navbar-background-color: #dde8ee;
+  --background-color: #c3d0d9;
+  --color4: #b2c9cf;
+  --btn-color: #a4b9ba;
+  --btn-color-hover: #589f97;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #c3d0d9;
+  min-height: 100%;
+}
+.bg__ {
+  background-color: #c3d0d9;
+}
+.btn-color {
+  background-color: var(--btn-color);
+  border-radius: 0em !important;
+}
+.link-count {
+  background-color: #1db2d8;
+  color: rgb(54, 54, 53);
+  border-radius: 50%;
+  padding: 5px;
+}
+.btn-color:hover {
+  background-color: var(--btn-color-hover);
+  color: white;
+}
+.navbar-bg {
+  background-color: var(--navbar-background-color);
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(184, 170, 184, 0.61);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(184, 170, 184, 0.61);
+  box-shadow: 0px 0px 5px 0px rgba(184, 170, 184, 0.61);
+}
